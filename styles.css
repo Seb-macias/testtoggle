@@ -253,7 +253,7 @@ input:checked + .slider:before {
     flex-wrap: wrap;
   }
   .toggle-container p {
-    min-height: 64px;
+    min-height: 22px;
   }
 }
 @media (max-width: 767px) {
@@ -322,28 +322,4 @@ input:checked + .slider:before {
     z-index: 99;
   }
 }
-/**sticky animations**/
-@keyframes slidein {
-  from {
-    position: relative;
-    bottom: 0px;
-    opacity: 0;
-  }
-  to {
-    position: fixed;
-    bottom: 0px;
-    opacity: 1;
-  }
-}
-@keyframes slideout {
-  from {
-    position: fixed;
-    bottom: 0px;
-    opacity: 1;
-  }
-  to {
-    position: relative;
-    bottom: 0px;
-    opacity: 1;
-  }
-}
+
